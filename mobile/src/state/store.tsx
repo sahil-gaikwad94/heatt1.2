@@ -97,6 +97,8 @@ type StoreValue = {
   markShelfExplored: (category: string) => void;
   markNotificationsRead: () => void;
   dismissNotification: (id: string) => void;
+  exportData: () => string;
+  resetLocalData: () => void;
 };
 
 const StoreContext = createContext<StoreValue | null>(null);
@@ -297,6 +299,11 @@ export function StoreProvider({ children }: { children: React.ReactNode }) {
       patch((s) => ({ ...s, notifications: s.notifications.map((n) => ({ ...n, read: true })) })),
     dismissNotification: (id) =>
       patch((s) => ({ ...s, notifications: s.notifications.filter((n) => n.id !== id) })),
+    exportData: () => JSON.stringify(state, null, 2),
+    resetLocalData: () => {
+      AsyncStorage.removeItem(STATE_KEY).catch(() => {});
+      setState(defaultState);
+    },
   }), [state, ready, authors, allRooms, allFlares, authorFor, patch]);
 
   return <StoreContext.Provider value={value}>{children}</StoreContext.Provider>;

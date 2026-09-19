@@ -1,5 +1,5 @@
-import React from 'react';
-import { View, ScrollView, Pressable, StyleSheet, Switch } from 'react-native';
+import React, { useState } from 'react';
+import { View, ScrollView, Pressable, StyleSheet, Switch, Platform, Share } from 'react-native';
 import { useRouter } from 'expo-router';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ScreenBackground } from '../../src/ui/Screen';
@@ -8,6 +8,7 @@ import { ThemedText } from '../../src/ui/Text';
 import { Card } from '../../src/ui/Surface';
 import { Icon } from '../../src/ui/Icon';
 import { Button } from '../../src/ui/Pressables';
+import { Sheet } from '../../src/ui/Sheet';
 import { ThemePicker } from '../../src/features/ThemePicker';
 import { useTheme, useThemeControls } from '../../src/theme/ThemeProvider';
 import { useStore } from '../../src/state/store';
@@ -20,8 +21,43 @@ export default function Settings() {
   const insets = useSafeAreaInsets();
   const router = useRouter();
   const toast = useToast();
-  const { state, updatePreferences, signOut } = useStore();
+  const { state, updatePreferences, signIn, signOut, exportData, resetLocalData } = useStore();
   const prefs = state.preferences;
+  const [confirmDelete, setConfirmDelete] = useState(false);
+
+  const doExport = async () => {
+    const json = exportData();
+    if (Platform.OS === 'web') {
+      try {
+        const blob = new Blob([json], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = `heatt-export-${new Date().toISOString().slice(0, 10)}.json`;
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        URL.revokeObjectURL(url);
+        toast.show({ message: 'Downloaded your data as JSON.' });
+      } catch {
+        toast.show({ message: 'Could not export in this browser.' });
+      }
+    } else {
+      try {
+        await Share.share({ message: json, title: 'Heatt data export' });
+      } catch {
+        toast.show({ message: 'Export cancelled.' });
+      }
+    }
+  };
+
+  const doDelete = () => {
+    resetLocalData();
+    setConfirmDelete(false);
+    Haptics.success();
+    toast.show({ message: 'Local data cleared.' });
+    router.replace('/');
+  };
 
   const Row = ({ icon, title, subtitle, right, onPress }: { icon: any; title: string; subtitle?: string; right?: React.ReactNode; onPress?: () => void }) => (
     <Pressable onPress={onPress} style={styles.row} disabled={!onPress}>
@@ -98,9 +134,9 @@ export default function Settings() {
         <Card padded={false} style={styles.group}>
           <Row icon="lock" title="Privacy" subtitle="What Heatt stores, and where" onPress={() => toast.show({ message: 'Everything lives on your device until you sign in.' })} right={<Icon name="chevron" size={16} color={t.text3} />} />
           <View style={[styles.divider, { backgroundColor: t.border }]} />
-          <Row icon="share" title="Export local data" onPress={() => toast.show({ message: 'Export prepared (demo).' })} right={<Icon name="chevron" size={16} color={t.text3} />} />
+          <Row icon="share" title="Export local data" subtitle="Download everything as JSON" onPress={doExport} right={<Icon name="chevron" size={16} color={t.text3} />} />
           <View style={[styles.divider, { backgroundColor: t.border }]} />
-          <Row icon="trash" title="Delete local data" subtitle="Clears everything on this device" onPress={() => toast.show({ message: 'Hold to confirm in a real build.' })} right={<Icon name="chevron" size={16} color={t.text3} />} />
+          <Row icon="trash" title="Delete local data" subtitle="Clears everything on this device" onPress={() => setConfirmDelete(true)} right={<Icon name="chevron" size={16} color={t.text3} />} />
         </Card>
 
         {/* Account */}
@@ -116,12 +152,23 @@ export default function Settings() {
           style={{ marginTop: 14 }}
           onPress={() => {
             if (state.signedIn) { signOut(); toast.show({ message: 'Logged out. Your local data stays on device.' }); }
-            else { toast.show({ message: 'Sign-in connects Supabase in a full build.' }); }
+            else { signIn(); toast.show({ message: 'Signed in on this device.' }); }
           }}
         />
 
         <ThemedText variant="meta" tone="faint" style={{ textAlign: 'center', marginTop: 24 }}>Heatt · where your mind catches fire</ThemedText>
       </ScrollView>
+
+      <Sheet visible={confirmDelete} onClose={() => setConfirmDelete(false)} title="Delete local data?">
+        <ThemedText variant="body" tone="muted" style={{ marginBottom: 6 }}>
+          This clears every flare, save, journal entry, room, and preference stored on this device. It cannot be undone.
+        </ThemedText>
+        <ThemedText variant="meta" tone="faint" style={{ marginBottom: 18 }}>
+          Consider exporting first so you keep a copy.
+        </ThemedText>
+        <Button label="Delete everything" full variant="primary" icon={<Icon name="trash" size={16} color={t.onAccent} />} onPress={doDelete} />
+        <Button label="Cancel" full variant="ghost" style={{ marginTop: 10 }} onPress={() => setConfirmDelete(false)} />
+      </Sheet>
     </ScreenBackground>
   );
 }
