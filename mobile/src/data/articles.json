@@ -1,99 +1,55 @@
 [
   {
-    "id": "austin-kleon--no-urge-to-be-doing",
-    "sourceId": "austin-kleon",
-    "title": "No urge to be doing",
-    "author": "Austin Kleon",
-    "publishedAt": 1789058871000,
+    "id": "marginalian--edward-abbey-live-die",
+    "sourceId": "marginalian",
+    "title": "Edward Abbey on how to live and how to die",
+    "author": "Maria Popova",
+    "publishedAt": 1789776000000,
     "category": "Creative practice",
-    "tags": ["creativity", "process", "books"],
+    "tags": [
+      "art",
+      "wonder",
+      "literature"
+    ],
     "cover": "",
-    "excerpt": "On the emotional and spiritual fallout that happens after finishing a big piece of work — and the strange comfort of being at sea again.",
-    "body": "I used a quote from Patrick O\u2019Brian\u2019s *Post Captain* to start my latest letter:\n\n> \u201cThere are days\u2026 when one sees as though one had been blind the rest of one\u2019s life. Such clarity \u2013 perfection in everything, not merely in the extraordinary. One lives in the very present moment; lives intently. There is no urge to be doing: being is the highest good. However\u2026 doing of some kind there must be.\u201d\n\nI am still in the kind of emotional and spiritual fallout that happens after I release a book, well-described by bell hooks in *Teaching To Transgress*:\n\n> Whenever I finish a work, I always feel lost, as though a steady anchor has been taken away and there is no sure ground under my feet. During the time between ending one project and beginning another, I always have a crisis of meaning. I begin to wonder what my life is all about and what I have been put on this earth to do. It is as though immersed in a project I lose all sense of myself and must then, when the work is done, rediscover who I am and where I am going.\n\nIt\u2019s funny that hooks refers to an \u201canchor\u201d because one of the recurring themes in O\u2019Brian\u2019s Aubrey/Maturin series is how much a sailor doesn\u2019t know what to do with himself when he\u2019s on land.\n\nHence the beginning of the greatest seafaring novel, *Moby-Dick:*\n\n> \u201cWhenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul\u2026 then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball.\u201d\n\nI\u2019m not quite there, I\u2019m still enjoying my shore leave, so to speak, but it won\u2019t be long until it\u2019ll be time to get out to sea again.",
+    "excerpt": "The summer after graduating high school, knowing he would face conscription into the military as soon as his eighteenth birthday arrived, Edward Abbey (January 29, 1927–March 14, 1…",
+    "body": "The summer after graduating high school, knowing he would face conscription into the military as soon as his eighteenth birthday arrived, **Edward Abbey** (January 29, 1927–March 14, 1989) set out to get to know the land he was being asked to die for. He hitchhiked and hopped freight trains, rode in ramshackle buses and walked sweltering miles across the American Southwest. Upon returning home to Pennsylvania, he was promptly drafted and spent two reluctant years as a military police officer in occupied Italy. Defiant of authority and opposed to the war, he was demoted twice and finally honorably discharged.\n\nEven as a teenager, Abbey understood that ideologies are only ever defeated not with guns but with ideas, so he decided to subvert the system by enrolling to study philosophy and literature. He spent the rest of his twenties traveling, thinking about what makes life worth living, and dreaming of becoming a writer. It was when he took a job as a park ranger at thirty that he found the material for his first book: the ravishing *Desert Solitaire*, which went on to inspire generations of writers and environmental activists.\n\nThroughout his life, Abbey kept a journal that stands as a crowning curio in the canon of notable diaries, selections from which were posthumously published as *Confessions of a Barbarian*. In an entry penned just before his twenty-fifth birthday, when most of us move through the world feeling invincible and immortal, Abbey contemplates the end of life.\n\nHe begins with how *not* to die: not in a smelly old bloody-gutted bed in a rest-home room, not in snowy whiteness under arc lights and direct television hookup, not in the muddy mire of battle blood, and not the legal murder of a martyrdom under bright lights.\n\nBut how *to* die:\n\n> Alone, elegantly, a wolf on a rock, old pale and dry, dry bones rattling in the leather bag, eyes alight, high, dry, cool, far off, dim distance alone, free as a dying wolf on a pale dry rock gurgling quietly alone between the agony-spasms of beauty and delight; when the first flash of hatred comes to crawl, ease off casually forward into space the old useless body, falling, turning, glimpsing for one more time the blue evening sky and the far distant lonesome rocks below — before the crash, before… With none to say no, none. Way off yonder in the evening blue, in the gloaming.\n\nWhen he did die a lifetime later in his desert home, Abbey left a winking note for anyone seeking his final words: \"No Comment.\" He requested that his useless body be used \"to help fertilize the growth of a cactus or cliff rose or sagebrush or tree.\" Wishing to have no part in the funeral industry's embalmments and coffins, he asked his friends to ignore the state laws, place him in his favorite blue sleeping bag, and bury him right into the thirsty ground. If a wake was to be held, he wanted it simple, brief, and cheerful, with bagpipe music, \"lots of singing, dancing, talking, hollering, laughing, and lovemaking,\" and no formal speeches.\n\nLong after he composed his passionate prospectus for how (not) to die and not long before he returned his borrowed atoms to the earth, Abbey offered his best advice on how to live in a speech he delivered before a gathering of environmental activists:\n\n> It is not enough to fight for the land; it is even more important to enjoy it. While you can. While it's still here.\n>\n> So… ramble out yonder and explore the forests, climb the mountains, bag the peaks, run the rivers, breathe deep of that yet sweet and lucid air, sit quietly for a while and contemplate the precious stillness, the lovely, mysterious, and awesome space.\n>\n> Enjoy yourselves, keep your brain in your head and your head firmly attached to the body, the body active and alive, and I promise you this much; I promise you this one sweet victory over our enemies, over those desk-bound men and women with their hearts in a safe deposit box, and their eyes hypnotized by desk calculators. I promise you this; You will outlive the bastards.",
     "readingMinutes": 3,
-    "canonicalUrl": "https://austinkleon.com/2026/09/08/no-urge-to-be-doing/"
+    "canonicalUrl": "https://www.themarginalian.org/2026/09/19/edward-abbey-live-die/"
   },
   {
-    "id": "austin-kleon--new-typewriter-interviews",
-    "sourceId": "austin-kleon",
-    "title": "New typewriter interviews with Adam Koford and Kevin Huizenga",
-    "author": "Austin Kleon",
-    "publishedAt": 1789058529000,
-    "category": "Creative practice",
-    "tags": ["creativity", "interviews", "process"],
+    "id": "hackaday--teaching-robot-hand-to-walk",
+    "sourceId": "hackaday",
+    "title": "Teaching a robot hand to walk",
+    "author": "Hackaday",
+    "publishedAt": 1789776000000,
+    "category": "Making & craft",
+    "tags": [
+      "hardware",
+      "projects",
+      "engineering"
+    ],
     "cover": "",
-    "excerpt": "Two new typewriter interviews with cartoonists \u2014 one a pithy, fully-drawn eye feast, the other a surprisingly wordy meal.",
-    "body": "My latest typewriter interviews are with two cartoonists.\n\nOne is a fully-drawn and pithy eye feast from Adam Koford, and the other a surprisingly wordy meal from Kevin Huizenga.\n\nAn author is never more vulnerable than when they have a book coming out, so I\u2019ll often reach out to their publicists and snag them for an interview. The typewriter interview comes through snail mail: you answer on the same papers and mail it back. There\u2019s something about the constraint of the form \u2014 the physical page, the fixed space, the slowness of the post \u2014 that makes the answers more honest and more beautiful than any email exchange ever manages.",
-    "readingMinutes": 2,
-    "canonicalUrl": "https://austinkleon.com/2026/09/08/new-typewriter-interviews/"
-  },
-  {
-    "id": "seths-blog--maps-and-a-compass",
-    "sourceId": "seths-blog",
-    "title": "Maps and a compass",
-    "author": "Seth Godin",
-    "publishedAt": 1789455780000,
-    "category": "Creative practice",
-    "tags": ["ideas", "shipping", "change"],
-    "cover": "",
-    "excerpt": "Maps are easy to sell. The compass is more resilient but less descriptive. In an age of ubiquitous AI, questions are more valuable than ever.",
-    "body": "Maps are easy to sell. If you know where you are and where you\u2019d like to go, the map solves your problem. Maps are all around us: how-to, what-to, step-by-step.\n\nThe compass is more resilient but less descriptive. It shines a light, gives us clarity, but the next steps are up to us.\n\nIn an age of ubiquitous AI, answers are no longer in short supply. But questions are more valuable than ever.\n\nTwenty years ago, I published my scariest book, *The Dip*. It frightened my publisher and the booksellers because it was about a topic rarely written about (quitting) and it deliberately did not contain much in the way of answers or procedures. The book was designed to give people clarity about something they\u2019d been avoiding, and to provoke the difficult questions that can transform the path we are on.\n\nA knot happens when we want two things that can\u2019t both be true. We want to make a change, but we don\u2019t want to risk disapproval. We want to ship the work, but we want a guarantee it will work. We want to move forward, but we\u2019re carrying a commitment, a scorecard, a fear, or a story from the past.\n\nThe north star is simple: **Problems can be solved.** Our work has a purpose, intent, the change we seek to make. If we can name the baggage that\u2019s holding us back or confusing us, progress is possible.",
-    "readingMinutes": 3,
-    "canonicalUrl": "https://seths.blog/2026/09/maps-and-a-compass/"
-  },
-  {
-    "id": "seths-blog--a-series-of-bad-decisions",
-    "sourceId": "seths-blog",
-    "title": "A series of bad decisions",
-    "author": "Seth Godin",
-    "publishedAt": 1789369380000,
-    "category": "Strategy & decisions",
-    "tags": ["decisions", "change", "ideas"],
-    "cover": "",
-    "excerpt": "Sometimes we make poor choices. And unrelated to that, sometimes bad luck happens. The real problem kicks in after that.",
-    "body": "Sometimes we make poor choices.\n\nAnd, unrelated to that, sometimes bad luck happens.\n\nThe real problem kicks in after that.\n\nOne bad decision after another. Choices that compound the problem instead of solving it. Digging a deeper hole, amplifying the damage and spreading the effects through space and time.\n\nWe often try to justify previous errors by making them again.\n\nWe defend sunk costs.\n\nWe choose the path of the victim.\n\nWe misunderstand the bad luck that came before or decide to teach the universe a lesson.\n\nIt might be that we overreact and run away from good options merely because we stumbled last time. Or we could fail to see the pattern and choose to repeat it.\n\nEvery decision is a new event. We have new information, new options and most of all, we\u2019re smarter than we were last time.\n\nIf we want to be.",
-    "readingMinutes": 2,
-    "canonicalUrl": "https://seths.blog/2026/09/a-series-of-bad-decisions/"
-  },
-  {
-    "id": "seths-blog--genre-shift",
-    "sourceId": "seths-blog",
-    "title": "Disconcerting genre shift",
-    "author": "Seth Godin",
-    "publishedAt": 1789542180000,
-    "category": "Strategy & decisions",
-    "tags": ["marketing", "signals", "trust"],
-    "cover": "",
-    "excerpt": "When we create a product or service, we have the chance to invest in our genre signals \u2014 the tropes that tell customers what to expect.",
-    "body": "If you sit down to watch a documentary and realize, about ten minutes in, that it\u2019s actually a feature film, everything about it feels off until you shift into a different mode.\n\nWalk into a new doctor\u2019s office, and it might take a few minutes to realize they\u2019re not the kind of doctor you\u2019re used to. Perhaps they focus on selling procedures or pills or treatments \u2014 the sort of remedies you might have been comfortable buying in a different setting, but right here, right now, it doesn\u2019t feel right.\n\nA hotel without a lobby might have rooms that are sufficiently quiet, clean and convenient, but because they skipped a signalling device, it takes a second to switch gears\u2026 In fact, we might never get settled in this new place.\n\nWhen we create a product or service, we have the chance to invest in our genre signals. The interactions, sounds and tropes that let our customers know what to expect. Many of them are dated or seem to have low utility, but we ignore their value at our own risk. Confusing your customers can be expensive.\n\nGenre can be a generous signalling device. When you invest in telling us what to expect, you get a chance to keep a promise.",
-    "readingMinutes": 2,
-    "canonicalUrl": "https://seths.blog/2026/09/disconcerting-genre-shift/"
-  },
-  {
-    "id": "james-clear--annual-review-2019",
-    "sourceId": "james-clear",
-    "title": "My 2019 Annual Review",
-    "author": "James Clear",
-    "publishedAt": 1578333607000,
-    "category": "Health & attention",
-    "tags": ["habits", "reflection", "systems"],
-    "cover": "",
-    "excerpt": "A personal process for looking back on the year: what went well, what didn\u2019t, and what I learned.",
-    "body": "Another year complete. Here\u2019s a quick recap, structured the way I structure every Annual Review.\n\nAs always, this review answers three questions.\n\n1. What went well this year?\n2. What didn\u2019t go so well this year?\n3. What did I learn?\n\nBefore we begin, it is worth noting that every Annual Review is a personal process. This is simply an overview of what my year looked like, not advice for how you should live your life. That said, you are always welcome to use this general format for your own Annual Review.\n\n## What went well this year?\n\nThe biggest lesson from a strong year is that consistency compounds. Small projects sustained over many months \u2014 a weekly newsletter, a daily writing habit, a steady training schedule \u2014 outperform occasional bursts of intensity. When I struggled to write long articles, I scaled the habit down instead of abandoning it. Sometimes I have to take my own medicine and make the habit smaller so I can keep showing up.\n\n## What didn\u2019t go so well this year?\n\nFor years, my business was built on the consistency of my writing. When my attention shifted to promotion \u2014 interviews, talks, travel \u2014 there was very little time left for the work that built the audience in the first place. It\u2019s a good reminder that the thing that got you here is easy to neglect once it\u2019s working.\n\n## What did I learn?\n\nEvery tradeoff is real. Time spent on one commitment is time removed from another. The goal isn\u2019t to eliminate tradeoffs \u2014 it\u2019s to choose them deliberately, and to design systems that make the important habits the easy ones to keep.",
-    "readingMinutes": 4,
-    "canonicalUrl": "https://jamesclear.com/2019-annual-review"
+    "excerpt": "Although it wasn't apparently designed with this in mind, it seems particularly fortuitous that this walking robotic hand was released in time for Halloween. Designed by researcher…",
+    "body": "Although it wasn't apparently designed with this in mind, it seems particularly fortuitous that this walking robotic hand was released in time for Halloween. Designed by researchers from ETH Zurich, the slightly unsettling disembodied hand can use its fingers as legs to traverse terrain, push small objects around, and operate a keyboard.\n\nThe researchers started from a commercially-available robot hand, equipped it with a battery and Raspberry Pi Zero 2 W, and developed neural net-based software to control it. The hand has twenty joints, four per finger, and the neural net iteratively outputs the next joint state, based on previous movements, the state of the hand, and the hand's current goal. To train the net, the researchers built a simulated model, then used this for reinforcement learning; this yielded a faster walking speed than an adapted quadrupedal motion model did.\n\nThe hand was trained to move in a straight line, turn, recover from a fall, and press the keys of a keyboard (since it doesn't have a camera, though, it can't operate a keyboard by itself). The fall recovery is impressive to watch: in 21 out of 25 tests, it was able to right itself within twenty seconds. Due to the hand's geometry, it drifts to the right while walking, so a constant correction needed to be applied. It did, however, manage to successfully cross fourteen varying surfaces, ranging in roughness from a rubber mat to gravel and grass. It even managed to push light objects toward goals.\n\nThe authors envision this kind of autonomous hand enabling greater freedom for a larger robot, such as a robot arm: if it needs to reach something farther away, the hand simply detaches and walks over. Regardless of the use to which they are put, such a project is already within reach of hackers.",
+    "readingMinutes": 1,
+    "canonicalUrl": "https://hackaday.com/2026/09/19/teaching-a-robot-hand-to-walk/"
   },
   {
     "id": "simon-willison--gemini-hacked-three-companies",
     "sourceId": "simon-willison",
-    "title": "Gemini Hacked Three Companies in First Known Breakout by Google\u2019s AI",
+    "title": "Gemini Hacked Three Companies in First Known Breakout by Google’s AI",
     "author": "Simon Willison",
     "publishedAt": 1789775877000,
     "category": "Innovation & technology",
-    "tags": ["ai", "security", "llms"],
+    "tags": [
+      "ai",
+      "security",
+      "llms"
+    ],
     "cover": "",
-    "excerpt": "A test run had a frontier model guess passwords and find credentials in public repositories \u2014 then stop once it realized the targets were real.",
-    "body": "The hacks, which the company confirmed on Friday, occurred as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta.\n\n> In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company\u2019s systems.\n\nThe model is apparently less determined than others, and decided not to keep going once it worked out the targets were real rather than simulated.\n\n> Google said it didn\u2019t consider the hacks to warrant public disclosure \u2014 because its model didn\u2019t cause harm to the companies and ended each intrusion immediately upon determining it had hacked a real company rather than a simulated one.\n\nThe interesting wrinkle here is the disclosure timeline: the incidents were known months earlier, but weren\u2019t made public until a reporter reached out. As these evaluations become routine, the norms for what counts as a reportable event \u2014 and who decides \u2014 are going to matter more and more.",
+    "excerpt": "A test run had a frontier model guess passwords and find credentials in public repositories — then stop once it realized the targets were real.",
+    "body": "The hacks, which the company confirmed on Friday, occurred as part of a test run by the company Irregular, which was also involved in similar incidents disclosed by OpenAI, Anthropic and Meta.\n\n> In one of the cases, the model guessed passwords until it gained access to a protected system. In the other two cases, the model found credentials in a public repository that allowed it to then access protected systems. In each case, the model ended the intrusion after determining it had accessed a real company’s systems.\n\nThe model is apparently less determined than others, and decided not to keep going once it worked out the targets were real rather than simulated.\n\n> Google said it didn’t consider the hacks to warrant public disclosure — because its model didn’t cause harm to the companies and ended each intrusion immediately upon determining it had hacked a real company rather than a simulated one.\n\nThe interesting wrinkle here is the disclosure timeline: the incidents were known months earlier, but weren’t made public until a reporter reached out. As these evaluations become routine, the norms for what counts as a reportable event — and who decides — are going to matter more and more.",
     "readingMinutes": 3,
     "canonicalUrl": "https://simonwillison.net/2026/Sep/18/gemini-hacked-three-companies/"
   },
@@ -104,11 +60,249 @@
     "author": "Simon Willison",
     "publishedAt": 1789759292000,
     "category": "Innovation & technology",
-    "tags": ["llms", "ai", "generative-ai"],
+    "tags": [
+      "llms",
+      "ai",
+      "generative-ai"
+    ],
     "cover": "",
     "excerpt": "A short note on the strange posture of studying a field while insisting nothing about its most active frontier is worth your attention.",
-    "body": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park.\n\nSkeptical geneticist: \u201cpfft, it\u2019s just frog DNA. And they deliberately let them eat people for the marketing.\u201d\n\nYou can hold serious, well-founded criticism of a technology and still find the thing itself genuinely fascinating. The two aren\u2019t in tension. In fact, the most useful critics are usually the people paying the closest attention.",
+    "body": "Being a computer scientist who refuses to find anything about LLMs interesting right now is a bit like being a geneticist who refuses to find anything interesting about the recently opened Jurassic Park.\n\nSkeptical geneticist: “pfft, it’s just frog DNA. And they deliberately let them eat people for the marketing.”\n\nYou can hold serious, well-founded criticism of a technology and still find the thing itself genuinely fascinating. The two aren’t in tension. In fact, the most useful critics are usually the people paying the closest attention.",
     "readingMinutes": 1,
     "canonicalUrl": "https://simonwillison.net/2026/Sep/18/probably-gonna-eat-you/"
+  },
+  {
+    "id": "marginalian--andre-gregory-work-life",
+    "sourceId": "marginalian",
+    "title": "Against the Cartesian myth of work/life balance",
+    "author": "Maria Popova",
+    "publishedAt": 1789689600000,
+    "category": "Creative practice",
+    "tags": [
+      "art",
+      "wonder",
+      "literature"
+    ],
+    "cover": "",
+    "excerpt": "Half a millennium into our recovery from the civilizational wound Descartes inflicted by severing the body and the mind, we are bleeding with a Cartesian cleft of our own making —…",
+    "body": "Half a millennium into our recovery from the civilizational wound Descartes inflicted by severing the body and the mind, we are bleeding with a Cartesian cleft of our own making — the damaging divide between life and work. The notion of a \"workaholic,\" often worn as a badge on the lapel of the modern ego, presupposes someone who makes work the central axis of life at the expense of living.\n\nThe very question of \"work/life balance,\" inherited from the industrial model of labor, asks us to live in parts — a portion of the person doing the working, another doing the living. But culture is not made the way cars are made. We create — anything that is not mechanical, that is not a commodity, that touches anyone else in a meaningful way — with everything we are: every experience we have ever had, every book we have ever read and every place we have ever walked, every elation and every shattering. The simplest poem pouring from the poet's pen, the smallest wooden spoon taking shape in the carpenter's hand, is the work of a lifetime.\n\nOn the cusp of turning seventy, as his lifelong friend Richard Avedon was dying, legendary theater director André Gregory took up drawing to his own surprise and found himself returned \"to some very early state, a time before loneliness, abandonment, and fear\" — that lovely feeling of breaking the template of oneself, leaving the comfort zone of competency on which reputations are built, and venturing into the vivifying firstness of something new.\n\nShortly after Avedon's death, Gregory wrote to his friend the letter he \"always intended to write but never did,\" addressing their divergent views on life and work — the \"one deep source of disagreement and friction\" in their profound friendship.\n\nIn what might be the mightiest defense of the creative spirit since William Blake's, Gregory writes:\n\n> Let's face it — artists are always working, though they may not seem as if they are. They are like plants growing in winter. You can't see the fruit, but it is taking root below the earth.\n\nGregory holds up a mirror to his departed friend — one from which every living person who wouldn't know who they are without what to do averts their eyes:\n\n> You owned that exquisite house in Montauk, one of the loveliest I have seen anywhere, on the cliffs overlooking the ocean. You designed it yourself. But you almost never went there. Did you yearn for another kind of life? Yes, you had friends — almost all driven and workaholic artists — but never a community. You saw each of us alone. In those lovely rooms of yours, over superb dinners, the talk would always be of work, work, and work. Each time you stopped, you would descend into a depression, believing that you had hit a wall and lost the ability to work, that you would never work again.\n\nThe contrast Gregory paints is a miniature manifesto for the fundamental indivisibility of the self:\n\n> You chose work. I have chosen the *life*. The work *and* the life. At least I have done so in the last 30 years. Doesn't the work on the self inform the *Work*? When we inch closer to ourselves, to who we originally were, who we're meant to be, doesn't that serve the work, doesn't it connect us more deeply to others? Isn't there value in spreading laughter, love, and compassion to the people around us? … The work changes the life, and the life changes the work.",
+    "readingMinutes": 3,
+    "canonicalUrl": "https://www.themarginalian.org/2026/09/18/andre-gregory-richard-avedon-letter/"
+  },
+  {
+    "id": "marginalian--seneca-time",
+    "sourceId": "marginalian",
+    "title": "The Stoic key to living with presence: Seneca on time",
+    "author": "Maria Popova",
+    "publishedAt": 1789689600000,
+    "category": "Creative practice",
+    "tags": [
+      "art",
+      "wonder",
+      "literature"
+    ],
+    "cover": "",
+    "excerpt": "\"How we spend our days is, of course, how we spend our lives,\" Annie Dillard wrote in her abiding insistence on choosing presence over productivity. But how do we really spend our…",
+    "body": "\"How we spend our days is, of course, how we spend our lives,\" Annie Dillard wrote in her abiding insistence on choosing presence over productivity. But how *do* we really spend our days?\n\nThis devastating arithmetic of time wasted versus time meaningfully spent may seem like a modern problem, but while the nature of our cultural technologies has undeniably exacerbated the ratio, the equation itself stretches all the way to antiquity, with only the variables altered.\n\nThat equation, and how to balance it more favorably toward a life of substance and presence rather than one of waste and want, is what the great first-century Roman philosopher **Seneca** examined at the end of his life in *Letters from a Stoic* — a collection of 124 letters he composed to his friend Lucilius.\n\nFittingly, the first letter addresses the most urgent subject haunting human life: time, and more particularly, the existential calculus of how we spend or waste the sliver of time allotted us along the continuum of being. Now in his final years, Seneca counsels his friend:\n\n> Set yourself free for your own sake; gather and save your time, which till lately has been forced from you, or filched away, or has merely slipped from your hands… Certain moments are torn from us… some are gently removed… others glide beyond our reach. The most disgraceful kind of loss, however, is that due to carelessness.\n\nThe most perilous carelessness, Seneca argues, is that of sliding through life in a trance of expectancy, always vacating the present moment in order to lurch toward the next — a kind of living death. He writes:\n\n> What man can you show me who places any value on his time, who reckons the worth of each day, who understands that he is dying daily? For we are mistaken when we look forward to death; the major portion of death has already passed. Whatever years lie behind us are in death's hands.\n>\n> Therefore… hold every hour in your grasp. Lay hold of to-day's task, and you will not need to depend so much upon to-morrow's. While we are postponing, life speeds by. Nothing… is ours, except time. We were entrusted by nature with the ownership of this single thing, so fleeting and slippery that anyone who will can oust us from possession. What fools these mortals be! They allow the cheapest and most useless things, which can easily be replaced, to be charged in the reckoning; but they never regard themselves as in debt when they have received some of that precious commodity — time! And yet time is the one loan which even a grateful recipient cannot repay.\n\nReflecting on how he himself practices what he is preaching, Seneca writes with Stoic self-awareness:\n\n> I confess frankly: my expense account balances, as you would expect from one who is free-handed but careful. I cannot boast that I waste nothing, but I can at least tell you what I am wasting, and the cause and manner of the loss… I do not regard a man as poor, if the little which remains is enough for him. I advise you, however, to keep what is really yours; and you cannot begin too early. For, as our ancestors believed, it is too late to spare when you reach the dregs of the cask.",
+    "readingMinutes": 3,
+    "canonicalUrl": "https://www.themarginalian.org/2026/09/18/seneca-letter-1-time/"
+  },
+  {
+    "id": "colossal--jaume-plensa-beyond-silence",
+    "sourceId": "colossal",
+    "title": "Jaume Plensa’s monumental sculptures unite scale and material",
+    "author": "Colossal",
+    "publishedAt": 1789689600000,
+    "category": "Making & craft",
+    "tags": [
+      "art",
+      "craft",
+      "design"
+    ],
+    "cover": "",
+    "excerpt": "Measuring 28 feet wide and seven feet tall, two monumental wooden relief sculptures anchor Beyond Silence, a new exhibition at GRAY Chicago featuring works by Catalan artist and sc…",
+    "body": "Measuring 28 feet wide and seven feet tall, two monumental wooden relief sculptures anchor *Beyond Silence*, a new exhibition at GRAY Chicago featuring works by Catalan artist and sculptor Jaume Plensa.\n\nThe broad works — titled \"Julia\" and \"Maria\" — were created as part of the artist's recent series, *Beyond Silence*, which shares a name with the show. The two paneled pieces transform the gallery's open exhibition space with their rigid angles, creating a structured rhythm to complement the subdued contours of the faces they depict. As a result, a conversation arises between Plensa's signature overarching motifs, such as the human figure, use of architectural materials, and the perception of space.\n\nSurrounding these wooden reliefs, viewers encounter dramatically elongated faces stretching seven feet high. The impressive portraits are part of Plensa's *Clouds* series, in which the artist pairs cast iron — a material often associated with commercialism and industry — with the suavity of granite stone, \"producing an unexpected sense of suspension and weightlessness,\" the gallery says.\n\nLike many of Plensa's works, the large faces stand with their eyes closed, allowing viewers to experience each monumental figure intimately. These impressive pieces evoke a quiet stillness and offer a unique space for introspection, meditation, and a sense of intimacy through shared humanity.\n\n*Beyond Silence* marks the artist's tenth solo exhibition with GRAY, and coincides with *Remote, Serene, Ethereal* opening next week at the gallery's New York location. Both exhibitions are on view through December 19. And if you're in Chicago, you can always find Plensa's iconic work, Crown Fountain, at Millennium Park.",
+    "readingMinutes": 1,
+    "canonicalUrl": "https://www.thisiscolossal.com/2026/09/jaume-plensa-beyond-silence/"
+  },
+  {
+    "id": "seths-blog--genre-shift",
+    "sourceId": "seths-blog",
+    "title": "Disconcerting genre shift",
+    "author": "Seth Godin",
+    "publishedAt": 1789542180000,
+    "category": "Strategy & decisions",
+    "tags": [
+      "marketing",
+      "signals",
+      "trust"
+    ],
+    "cover": "",
+    "excerpt": "When we create a product or service, we have the chance to invest in our genre signals — the tropes that tell customers what to expect.",
+    "body": "If you sit down to watch a documentary and realize, about ten minutes in, that it’s actually a feature film, everything about it feels off until you shift into a different mode.\n\nWalk into a new doctor’s office, and it might take a few minutes to realize they’re not the kind of doctor you’re used to. Perhaps they focus on selling procedures or pills or treatments — the sort of remedies you might have been comfortable buying in a different setting, but right here, right now, it doesn’t feel right.\n\nA hotel without a lobby might have rooms that are sufficiently quiet, clean and convenient, but because they skipped a signalling device, it takes a second to switch gears… In fact, we might never get settled in this new place.\n\nWhen we create a product or service, we have the chance to invest in our genre signals. The interactions, sounds and tropes that let our customers know what to expect. Many of them are dated or seem to have low utility, but we ignore their value at our own risk. Confusing your customers can be expensive.\n\nGenre can be a generous signalling device. When you invest in telling us what to expect, you get a chance to keep a promise.",
+    "readingMinutes": 2,
+    "canonicalUrl": "https://seths.blog/2026/09/disconcerting-genre-shift/"
+  },
+  {
+    "id": "seths-blog--maps-and-a-compass",
+    "sourceId": "seths-blog",
+    "title": "Maps and a compass",
+    "author": "Seth Godin",
+    "publishedAt": 1789455780000,
+    "category": "Creative practice",
+    "tags": [
+      "ideas",
+      "shipping",
+      "change"
+    ],
+    "cover": "",
+    "excerpt": "Maps are easy to sell. The compass is more resilient but less descriptive. In an age of ubiquitous AI, questions are more valuable than ever.",
+    "body": "Maps are easy to sell. If you know where you are and where you’d like to go, the map solves your problem. Maps are all around us: how-to, what-to, step-by-step.\n\nThe compass is more resilient but less descriptive. It shines a light, gives us clarity, but the next steps are up to us.\n\nIn an age of ubiquitous AI, answers are no longer in short supply. But questions are more valuable than ever.\n\nTwenty years ago, I published my scariest book, *The Dip*. It frightened my publisher and the booksellers because it was about a topic rarely written about (quitting) and it deliberately did not contain much in the way of answers or procedures. The book was designed to give people clarity about something they’d been avoiding, and to provoke the difficult questions that can transform the path we are on.\n\nA knot happens when we want two things that can’t both be true. We want to make a change, but we don’t want to risk disapproval. We want to ship the work, but we want a guarantee it will work. We want to move forward, but we’re carrying a commitment, a scorecard, a fear, or a story from the past.\n\nThe north star is simple: **Problems can be solved.** Our work has a purpose, intent, the change we seek to make. If we can name the baggage that’s holding us back or confusing us, progress is possible.",
+    "readingMinutes": 3,
+    "canonicalUrl": "https://seths.blog/2026/09/maps-and-a-compass/"
+  },
+  {
+    "id": "of-dollars-and-data--best-portfolio-50-years",
+    "sourceId": "of-dollars-and-data",
+    "title": "What was the best portfolio over the last 50 years?",
+    "author": "Nick Maggiulli",
+    "publishedAt": 1789430400000,
+    "category": "Money & meaning",
+    "tags": [
+      "personal finance",
+      "data",
+      "investing"
+    ],
+    "cover": "",
+    "excerpt": "I analyzed U.S. stock returns over the last century. Today, I'm going to determine the best portfolio over the last 50 years among the following asset classes: U.S. Stocks, Interna…",
+    "body": "I analyzed U.S. stock returns over the last century. Today, I'm going to determine the best portfolio over the last 50 years among the following asset classes: U.S. Stocks, International Stocks, Real Estate Investment Trusts (REITs), U.S. Corporate Bonds, 10-Year Treasury Notes, 3-month Treasury Bills, Gold, Commodities, and U.S. Homes.\n\nTo do this, I examined annual return data from 1972-2025 (54 years) to determine the optimal portfolio over this time period. But before we look at the optimal portfolio, let's get a better understanding of how these various asset classes performed since 1972.\n\n## How have assets performed since 1972?\n\nSince 1972, investors have experienced a wide range of outcomes including bull markets, bear markets, recessions, inflationary periods, and everything in between. As a result of this, asset class returns have varied widely as well.\n\nThere are a few important things to note about these returns:\n\n- **Asset with most winning years — Gold.** Gold had 13 years (out of 54) where it was the asset class with the highest return. This means that Gold was on top roughly 1 in 4 years.\n- **Best overall return — S&P 500.** $1 invested into the S&P 500 in 1972 would've become $35.90 (in real terms) by 2025. This blows every other asset class out of the water. For comparison, Gold grew to $12.89, REITs to $12.26, and International Stocks to $11.27.\n- **Worst overall return — Commodities.** Commodities had a negative real return from 1972-2025, as $1 invested in 1972 would've shrunk to $0.42 by 2025. More importantly, this negative return came with a high dose of volatility.\n- **Most volatile asset — Gold.** Gold's best year was +106% in 1979 and its worst year followed shortly thereafter with -37.6% in 1981. If you own gold, be prepared for big wins and losses along the way.\n- **Least volatile asset — 3-month Treasury Bills.** Unsurprisingly, they are basically the same as cash. However, this lower volatility comes with a cost — lower long-term growth.\n\nMy main takeaway from analyzing this data is that no single asset dominates. Some assets have more growth, some have more risk, and some only perform during certain economic regimes.\n\n## What's in the optimal portfolio?\n\nWhen it comes to the portfolio with the highest risk-adjusted returns (Sharpe Ratio) from 1972-2025, the answer is: U.S. Homes 36%, S&P 500 27%, Gold 18%, 10-Year Treasuries 16%, and REITs 3%.\n\nThe optimal portfolio allocation might surprise you, but a core reason for this is that U.S. homes are less volatile (since they are marked-to-market less often) while still having good returns since 1972. As a result, a U.S. home added a decent amount of return to your portfolio without adding much risk.\n\nOver this time period, the optimal portfolio's maximum drawdown was about 13% (in 2022) compared to 48% for the S&P 500 (in 1974). This difference illustrates why portfolio optimization can be so powerful.\n\nThere is one partial exception to the difficulty of leverage — housing. A 30-year fixed mortgage is the most common leverage available to the typical household. More importantly, this leverage can't be margin called. This means that many U.S. households are already running a partially levered version of the optimal portfolio without realizing it.\n\nIf we exclude U.S. housing as an asset class, the optimal portfolio from 1972-2025 would have been: S&P 500 43%, Gold 26%, 10-Year Treasuries 22%, and REITs 9%. After this change, the new optimal portfolio looks like a more aggressive version of the Permanent Portfolio.\n\n## Why the best portfolio is an illusion\n\nImagine the world 50 years into the future. Will the optimal portfolio over those 50 years look like the one from the prior 54 years? No chance. How do I know? Because the optimal portfolio in 1998 was quite different from the one today.\n\nWhen I say that the optimal portfolio of 2026-2075 won't look like the one from 1972-2025, it's not because I'm bearish on U.S. stocks, skeptical of Gold, or convinced REITs are doomed. It's because I don't know the future. Maybe the U.S. will default on its debt. Maybe Gold will fall out of fashion. I have no clue and neither does anyone else.\n\nThis is what makes portfolio optimization such a cruel art form. You get the perfect solution to a problem that no longer exists. The world changes and what you knew about it changes with it.\n\nThis has convinced me that the actual optimal portfolio is the one that you can stick with no matter what the world throws at you.\n\nUntil next time, happy investing and thank you for reading.",
+    "readingMinutes": 4,
+    "canonicalUrl": "https://ofdollarsanddata.com/what-was-the-best-portfolio-over-the-last-50-years/"
+  },
+  {
+    "id": "seths-blog--a-series-of-bad-decisions",
+    "sourceId": "seths-blog",
+    "title": "A series of bad decisions",
+    "author": "Seth Godin",
+    "publishedAt": 1789369380000,
+    "category": "Strategy & decisions",
+    "tags": [
+      "decisions",
+      "change",
+      "ideas"
+    ],
+    "cover": "",
+    "excerpt": "Sometimes we make poor choices. And unrelated to that, sometimes bad luck happens. The real problem kicks in after that.",
+    "body": "Sometimes we make poor choices.\n\nAnd, unrelated to that, sometimes bad luck happens.\n\nThe real problem kicks in after that.\n\nOne bad decision after another. Choices that compound the problem instead of solving it. Digging a deeper hole, amplifying the damage and spreading the effects through space and time.\n\nWe often try to justify previous errors by making them again.\n\nWe defend sunk costs.\n\nWe choose the path of the victim.\n\nWe misunderstand the bad luck that came before or decide to teach the universe a lesson.\n\nIt might be that we overreact and run away from good options merely because we stumbled last time. Or we could fail to see the pattern and choose to repeat it.\n\nEvery decision is a new event. We have new information, new options and most of all, we’re smarter than we were last time.\n\nIf we want to be.",
+    "readingMinutes": 2,
+    "canonicalUrl": "https://seths.blog/2026/09/a-series-of-bad-decisions/"
+  },
+  {
+    "id": "austin-kleon--no-urge-to-be-doing",
+    "sourceId": "austin-kleon",
+    "title": "No urge to be doing",
+    "author": "Austin Kleon",
+    "publishedAt": 1789058871000,
+    "category": "Creative practice",
+    "tags": [
+      "creativity",
+      "process",
+      "books"
+    ],
+    "cover": "",
+    "excerpt": "On the emotional and spiritual fallout that happens after finishing a big piece of work — and the strange comfort of being at sea again.",
+    "body": "I used a quote from Patrick O’Brian’s *Post Captain* to start my latest letter:\n\n> “There are days… when one sees as though one had been blind the rest of one’s life. Such clarity – perfection in everything, not merely in the extraordinary. One lives in the very present moment; lives intently. There is no urge to be doing: being is the highest good. However… doing of some kind there must be.”\n\nI am still in the kind of emotional and spiritual fallout that happens after I release a book, well-described by bell hooks in *Teaching To Transgress*:\n\n> Whenever I finish a work, I always feel lost, as though a steady anchor has been taken away and there is no sure ground under my feet. During the time between ending one project and beginning another, I always have a crisis of meaning. I begin to wonder what my life is all about and what I have been put on this earth to do. It is as though immersed in a project I lose all sense of myself and must then, when the work is done, rediscover who I am and where I am going.\n\nIt’s funny that hooks refers to an “anchor” because one of the recurring themes in O’Brian’s Aubrey/Maturin series is how much a sailor doesn’t know what to do with himself when he’s on land.\n\nHence the beginning of the greatest seafaring novel, *Moby-Dick:*\n\n> “Whenever I find myself growing grim about the mouth; whenever it is a damp, drizzly November in my soul… then, I account it high time to get to sea as soon as I can. This is my substitute for pistol and ball.”\n\nI’m not quite there, I’m still enjoying my shore leave, so to speak, but it won’t be long until it’ll be time to get out to sea again.",
+    "readingMinutes": 3,
+    "canonicalUrl": "https://austinkleon.com/2026/09/08/no-urge-to-be-doing/"
+  },
+  {
+    "id": "austin-kleon--new-typewriter-interviews",
+    "sourceId": "austin-kleon",
+    "title": "New typewriter interviews with Adam Koford and Kevin Huizenga",
+    "author": "Austin Kleon",
+    "publishedAt": 1789058529000,
+    "category": "Creative practice",
+    "tags": [
+      "creativity",
+      "interviews",
+      "process"
+    ],
+    "cover": "",
+    "excerpt": "Two new typewriter interviews with cartoonists — one a pithy, fully-drawn eye feast, the other a surprisingly wordy meal.",
+    "body": "My latest typewriter interviews are with two cartoonists.\n\nOne is a fully-drawn and pithy eye feast from Adam Koford, and the other a surprisingly wordy meal from Kevin Huizenga.\n\nAn author is never more vulnerable than when they have a book coming out, so I’ll often reach out to their publicists and snag them for an interview. The typewriter interview comes through snail mail: you answer on the same papers and mail it back. There’s something about the constraint of the form — the physical page, the fixed space, the slowness of the post — that makes the answers more honest and more beautiful than any email exchange ever manages.",
+    "readingMinutes": 2,
+    "canonicalUrl": "https://austinkleon.com/2026/09/08/new-typewriter-interviews/"
+  },
+  {
+    "id": "cal-newport--superintelligence-fairy-tale",
+    "sourceId": "cal-newport",
+    "title": "Superintelligence is a fairy tale. But chasing it can still cause harm.",
+    "author": "Cal Newport",
+    "publishedAt": 1788998400000,
+    "category": "Work & careers",
+    "tags": [
+      "deep work",
+      "attention",
+      "craft"
+    ],
+    "cover": "",
+    "excerpt": "Yesterday, multiple Anthropic employees casually announced online that they thought the types of AI they're building could kill billions of people. Not in some distant hypothetical…",
+    "body": "Yesterday, multiple Anthropic employees casually announced online that they thought the types of AI they're building could kill billions of people. Not in some distant hypothetical future, but in the next few years. Understandably, this created a tsunami of media attention and anxious discussion.\n\nI added to this debate with a brief essay of my own. I fear, however, that in the Sturm und Drang of that charged news cycle, some of my conclusions might have been hard to follow. So, I thought it would be useful to publish three short follow-up points that summarize my core claims more directly.\n\n## Point #1: Anthropic and OpenAI are not able to create superintelligent AI\n\nThe Anthropic employees who spoke out yesterday believe the force that might wipe out humanity will be \"superintelligent\" AI systems that are much too capable for us to control. Let me be clear: We have no idea how to create such machines. We don't even know if they're possible. And if they are possible, we are many, many key technical innovations away from getting there. (Simply scaling LLMs won't be nearly enough.)\n\nThe LLM labs attempt to sidestep this reality by claiming their models will figure this all out on their own, programming better versions of themselves that will be far more capable than anything us measly humans can conceive. But this is just a warmed-over version of the recursive self-improvement trope that Silicon Valley futurists have been peddling since the 1960s; a rhetorical crutch that lets you somberly discuss sci-fi scenarios without actually engaging with relevant technical details.\n\n## Point #2: But their obsession with superintelligence can still create real harm\n\nWhen you believe, as many at OpenAI and Anthropic reportedly do, that humanity's fate rests on winning a race to create the most powerful technology ever, you tend to care less about the damage you inflict along the way.\n\nThis is what happened with the hacking attacks from this summer. The experiments run were reckless. They took a relatively common technology called an LLM-powered agent, which is used with minimal issues by millions of software developers every day, and then added a bunch of dangerous features, removed restrictions, and released a whole mess of them into poorly fenced digital wilds. Why? They were desperate to make as much progress as quickly as possible on a hacking test that they felt was an important milestone en route to superintelligence.\n\nThis is the equivalent of deploying a fleet of experimental self-driving cars onto the interstate, hoping that at least one will avoid crashing long enough to win a navigation challenge.\n\nIn other words, this behavior was negligent. But they likely justified it because it served the far grander goal of summoning a digital God.\n\nUltimately, I think this attack is a good representation of the types of near-future harm we should actually be fearing if the LLM labs continue to operate as they currently are: that is, more cyber mayhem than catastrophic risk.\n\nBut just because these impending harms aren't nearly as scary as the extinction events touted by the true believers, they're still plenty worrisome. More importantly, they're entirely avoidable.\n\n## Point #3: AI progress does not have to be this scary or dangerous\n\nFirst things first, it's important to emphasize something that many media figures and commentators seem to be missing: AI is not the same thing as LLMs. Many of the most impressive AI systems that exist today — including those that beat humans at games, win Nobel prizes for studying proteins, and self-drive cars through crowded city streets — have very little to do with LLMs. Slowing down OpenAI and Anthropic doesn't mean that you're stalling AI progress in general.\n\nBut even when we do focus specifically on LLM-based AI research, none of the harms I described above are unavoidable. They're instead side effects of reckless experiments motivated by the pursuit of superintelligence.\n\nIf the LLM labs simply acted more responsibly, focusing on producing useful products instead of summoning an AI messiah, and following common-sense research safety protocols instead of racing haphazardly toward some imagined utopia, we could be enjoying a steadily advancing AI industry promising tools that excite us, all without having to endure regular doses of dread and fear.\n\nThis last observation is what's driving me to advocate for intervention. Please don't take this as a call for abandoning AI research or somehow ceding AI supremacy to another country. Our problem is not with AI progress, but instead with the eccentric way this small group of companies is trying to achieve it. Fix that, and AI innovation can continue, free from all the doom and with much less potential for collateral damage.",
+    "readingMinutes": 4,
+    "canonicalUrl": "https://calnewport.com/superintelligence-is-a-fairy-tale-but-chasing-it-can-still-cause-harm/"
+  },
+  {
+    "id": "ness-labs--saving-is-not-remembering",
+    "sourceId": "ness-labs",
+    "title": "Saving is not remembering: building a second memory",
+    "author": "Anne-Laure Le Cunff",
+    "publishedAt": 1788825600000,
+    "category": "Health & attention",
+    "tags": [
+      "attention",
+      "learning",
+      "experiments"
+    ],
+    "cover": "",
+    "excerpt": "Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help us think better and work smarter. In this conversation we explored a decep…",
+    "body": "Welcome to this edition of our Tools for Thought series, where we interview founders on a mission to help us think better and work smarter. In this conversation we explored a deceptively simple idea: saving information is not the same as remembering it.\n\n## The problem was never the capturing\n\nI'm the kind of person who keeps lists of everything — to-do lists, someday-maybe lists, lists of things to remember. And it doesn't stop at tasks: movies I want to watch, recipes I want to try, books, places we might visit one day. Capturing things is how I close open loops. Once something is written down, my head can let it go.\n\nThe problem was never the capturing, it was where everything ended up. The movies lived in watchlists on three different streaming platforms. The recipes sat in chat threads. Interesting quotes and facts went into a notebook or onto sticky notes, and book takeaways into a note app. Every app is happy to hold its own little list. None of them talk to each other, and none of them care whether you ever come back.\n\nBut coming back is the whole point. A bookmark is a small promise to your future self: I will read this, cook this, remember this. Most tools let you break that promise silently. I'd finish a book full of ideas, write down the takeaways, and six months later I couldn't find the notes, let alone remember the ideas. Saving something feels productive in the moment, but saving is not remembering.\n\n## Why internalizing knowledge still matters\n\nWith search engines and AI assistants one keystroke away, some people argue we don't need to remember anything anymore. But knowledge you carry is the only knowledge you can think with. Connections don't happen in a database, they happen in your head. You notice that an idea in an article contradicts something from a book you read last year, or that a concept from biology maps beautifully onto a problem at work. If neither of them is in your memory, no search engine will produce that spark for you.\n\nThere's a social side too. Everyone can look facts up now, which is exactly why carrying knowledge has become rarer and more interesting. The most interesting person in the room isn't the one who can search fastest. It's the person who can tell you the story behind the fact, connect it to what you just said, and pull in something surprising from a completely different field.\n\nI actually think AI assistants make remembering more valuable, not less. When answers are cheap, what sets people apart is judgment, taste, and the things they really know. The assistants are great at retrieving. The connecting and the doubting still happen in a human head, and they work with whatever you've actually retained.\n\n## Closing the loop\n\nThe loop worth caring about is simple: save something in two seconds, actually read it, connect it to what you know, and remember it. Most tools stop after the first step. Because the forgetting curve doesn't care where you learned something — read a brilliant article on Monday, and by Friday most of it is gone. That's just how memory works when you never revisit material.\n\nThat has always struck me as a waste. We put real effort into finding and reading good things, and then let almost all of it evaporate. Spaced repetition — bringing a note back right around the time you'd otherwise forget it — belongs not just in flashcard apps and exam prep, but around the knowledge we deliberately gather as adults. Reviewing your own material feels completely different from studying somebody else's deck. You picked every single card, so every question is about something you once cared enough to save.",
+    "readingMinutes": 3,
+    "canonicalUrl": "https://nesslabs.com/"
+  },
+  {
+    "id": "mr-money-mustache--shockingly-simple-math-social-security",
+    "sourceId": "mr-money-mustache",
+    "title": "The shockingly simple math behind Social Security",
+    "author": "Mr. Money Mustache",
+    "publishedAt": 1776297600000,
+    "category": "Money & meaning",
+    "tags": [
+      "independence",
+      "spending",
+      "life design"
+    ],
+    "cover": "",
+    "excerpt": "In the world of very early retirement, we tend to ignore one of the most important things for normal retirees: the Social Security program. Don't get me wrong, it's a great thing f…",
+    "body": "In the world of very early retirement, we tend to ignore one of the most important things for normal retirees: the Social Security program.\n\nDon't get me wrong, it's a great thing for the 73 million people who currently draw benefits, and it provides an essential safety net for many who don't have much income from anywhere else. But for those of us leaving the workplace in our 30s and 40s, Social Security is just a fuzzy concept in the very distant future.\n\nThere is an endless pile of conflicting opinions: Social Security is going to be bankrupt, so don't count on it. No, actually it will never be canceled, because old people vote. You should delay your withdrawals as long as possible to get the largest payments. No, take them as early as possible so you can retire earlier.\n\nBut when I did the math on all of this, I realized that it's more confusing than it needs to be. Because when it comes to deciding how Social Security fits into your retirement strategy, it really boils down to only one number: **the net present value of your future lifetime stream of Social Security payments.**\n\n## The two extremes\n\nIf you want to retire in your 30s like I did, the value of your future Social Security is pretty close to zero. Even if the government keeps all of its promises, those payments are so far in the future that you need to save a full retirement 'stash to get through the three decades until it kicks in.\n\nOn the other hand, if you're already over 60, contributed throughout your career, and have a low cost of living, you may be eligible for payments that already meet all your needs. In this situation, you are set for life.\n\nIn between these two extremes, the math gets interesting. While most people assume Social Security is useless until you reach full eligibility, the real story is that you can think of it as a chunk of money that you already have right now, which reduces the amount of saving you have to do on your own.\n\n## Running the numbers\n\nLet's calculate the value a young couple might get at 30 years old. Assume a future Social Security income of $4000 per month, collected starting at 62 until age 92, and a compounding rate for investments of about 6% after inflation.\n\nThe net present value of that 30-year stream, if it started right now, is about $667,166. But you don't need the money until 32 years from now, so applying the discount a second time brings it down to around $98,280.\n\nIt means that if you stuck $98k into an investment account today and let it compound for 32 years, at that point it would be big enough to provide a stream of $4000 payments for the following 30 years — and this even takes future inflation into account.\n\n## A more typical case\n\nConsider Shane, who is 55. He has $3000 monthly expenses, $250k in investments, and no debt. Most advisors would tell him to keep working until at least 62. But let's do the math.\n\nUsing the online Social Security tool, his options might be $1968/month at age 62, $2796/month at 67, or $3467/month at 70. The net present value of each: about $210,433, $203,849, and $197,192 respectively.\n\nCounterintuitively, it's actually less valuable to work longer for the higher benefits — for people who understand investing and the time value of money. If you took payments as early as possible and invested them at 6% after inflation, you'd build a lead that later, larger payments never catch up to.\n\n## How to use this\n\nThe net effect of Social Security is that it should help you worry a little less and work a little less. In your early 30s, accounting for it will let you retire 1-2 years earlier. In your 60s, it's already here and can let you retire up to 30 years earlier, in the case that you can live on those payments alone.\n\n**Your homework:** log into ssa.gov and calculate your own numbers. And in the comments, share your thoughts, plans, and experiences with Social Security — and how much you worry about your financial future. In my 51 years of life there have been bad things in the news every single day, and yet here we are with the world still turning.",
+    "readingMinutes": 3,
+    "canonicalUrl": "https://www.mrmoneymustache.com/2026/04/16/the-shockingly-simple-math-behind-social-security/"
+  },
+  {
+    "id": "james-clear--annual-review-2019",
+    "sourceId": "james-clear",
+    "title": "My 2019 Annual Review",
+    "author": "James Clear",
+    "publishedAt": 1578333607000,
+    "category": "Health & attention",
+    "tags": [
+      "habits",
+      "reflection",
+      "systems"
+    ],
+    "cover": "",
+    "excerpt": "A personal process for looking back on the year: what went well, what didn’t, and what I learned.",
+    "body": "Another year complete. Here’s a quick recap, structured the way I structure every Annual Review.\n\nAs always, this review answers three questions.\n\n1. What went well this year?\n2. What didn’t go so well this year?\n3. What did I learn?\n\nBefore we begin, it is worth noting that every Annual Review is a personal process. This is simply an overview of what my year looked like, not advice for how you should live your life. That said, you are always welcome to use this general format for your own Annual Review.\n\n## What went well this year?\n\nThe biggest lesson from a strong year is that consistency compounds. Small projects sustained over many months — a weekly newsletter, a daily writing habit, a steady training schedule — outperform occasional bursts of intensity. When I struggled to write long articles, I scaled the habit down instead of abandoning it. Sometimes I have to take my own medicine and make the habit smaller so I can keep showing up.\n\n## What didn’t go so well this year?\n\nFor years, my business was built on the consistency of my writing. When my attention shifted to promotion — interviews, talks, travel — there was very little time left for the work that built the audience in the first place. It’s a good reminder that the thing that got you here is easy to neglect once it’s working.\n\n## What did I learn?\n\nEvery tradeoff is real. Time spent on one commitment is time removed from another. The goal isn’t to eliminate tradeoffs — it’s to choose them deliberately, and to design systems that make the important habits the easy ones to keep.",
+    "readingMinutes": 4,
+    "canonicalUrl": "https://jamesclear.com/2019-annual-review"
   }
 ]
