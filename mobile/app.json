@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Heatt",
+    "slug": "heatt",
+    "scheme": "heatt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0E0B10"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.heatt.app"
+    },
+    "android": {
+      "package": "com.heatt.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0E0B10",
+        "foregroundImage": "./assets/adaptive-icon.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
