@@ -1,0 +1,53 @@
+/* ============================================================
+   HEATT · THEME PREVIEW — board layout only
+
+   This page imports the REAL `src/theme/tokens.css` and
+   `src/ui/design-system.css`, so what you see here is the shipped
+   token values and the shipped component classes, not a copy. It
+   cannot drift from the app.
+
+   Everything in this file is layout for the board itself, prefixed
+   `pv-` so it can never collide with the product's namespace. No
+   colour is declared here: every value comes from a token.
+   ============================================================ */
+
+.pv-toolbar {
+  position: sticky; inset-block-start: 0; z-index: 60;
+  display: flex; flex-wrap: wrap; align-items: center; gap: var(--s-3);
+  padding: var(--s-3) var(--s-4);
+  background: var(--glass-bar);
+  -webkit-backdrop-filter: blur(var(--blur-bar)) saturate(1.4);
+  backdrop-filter: blur(var(--blur-bar)) saturate(1.4);
+  border-block-end: var(--hairline) solid var(--line);
+}
+.pv-brand { display: inline-flex; align-items: center; gap: var(--s-2); font: 700 var(--t-lead)/1 var(--font-display); letter-spacing: var(--track-tight); color: var(--text); }
+.pv-mark { inline-size: 22px; block-size: 22px; border-radius: 6px 6px 12px 6px; background: var(--accent); display: inline-block; }
+.pv-note { flex: 1 1 220px; min-width: 0; margin: 0; color: var(--muted); font-size: var(--t-meta); }
+
+.pv-wrap { display: grid; gap: var(--s-6); max-width: var(--shell-max); margin-inline: auto; padding: var(--s-5) var(--s-4) var(--s-8); }
+
+/* a phone-shaped frame: the app bar and tab bar are position:fixed in the
+   real app, so inside the frame they are re-anchored to the frame */
+.pv-frame {
+  position: relative;
+  width: 100%; max-width: 430px; margin-inline: auto;
+  border: var(--hairline) solid var(--line-strong);
+  border-radius: var(--r-2xl);
+  overflow: hidden;
+  background: var(--bg);
+  box-shadow: var(--shadow-lift);
+}
+.pv-frame .ds-appbar { position: static; }
+.pv-frame .ds-tabbar { position: absolute; inset-block-end: 0; }
+.pv-frame-body { display: grid; gap: var(--s-4); padding: var(--s-4); padding-block-end: calc(var(--tab-h) + var(--s-7)); }
+
+.pv-board { display: grid; gap: var(--s-5); }
+@media (min-width: 960px) { .pv-board { grid-template-columns: repeat(2, minmax(0, 1fr)); align-items: start; } }
+
+.pv-label { display: grid; gap: 2px; margin-block-end: var(--s-3); }
+.pv-swatches { display: flex; gap: var(--s-2); }
+.pv-swatches i { inline-size: 18px; block-size: 18px; border-radius: 50%; border: 2px solid var(--panel); box-shadow: 0 0 0 1px var(--line); }
+.pv-heat { display: inline-flex; gap: var(--s-1); }
+.pv-actions { display: flex; flex-wrap: wrap; gap: var(--s-2); }
+.pv-foot { color: var(--muted); font-size: var(--t-meta); text-align: center; padding-block-end: var(--s-6); }
+.pv-foot a { color: var(--accent); }

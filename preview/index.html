@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en" data-theme="ember">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f8f2ea" />
+    <meta name="robots" content="noindex" />
+    <title>Heatt · three personalities</title>
+
+    <!-- The real thing, not a copy: the shipped token file and the shipped
+         component layer. Edit src/theme/tokens.css and this page changes. -->
+    <link rel="stylesheet" href="../src/theme/tokens.css" />
+    <link rel="stylesheet" href="../src/ui/design-system.css" />
+    <link rel="stylesheet" href="preview.css" />
+  </head>
+  <body>
+    <!-- Only the reader picks the theme, and only these three exist. -->
+    <header class="pv-toolbar">
+      <span class="pv-brand"><span class="pv-mark" aria-hidden="true"></span>heatt</span>
+      <div class="ds-chip-row" role="radiogroup" aria-label="Theme">
+        <button type="button" class="ds-chip" data-theme-pick="ember" aria-pressed="true">Ember</button>
+        <button type="button" class="ds-chip" data-theme-pick="midnight" aria-pressed="false">Midnight</button>
+        <button type="button" class="ds-chip" data-theme-pick="ink" aria-pressed="false">Paper</button>
+      </div>
+      <p class="pv-note">The three personalities, applied to the shipped components. Switching is one attribute on <code>&lt;html&gt;</code> — nothing remounts and nothing shifts.</p>
+    </header>
+
+    <main class="pv-wrap">
+      <section class="pv-frame" aria-label="Heatt home, rendered in the selected personality">
+        <div class="ds-appbar">
+          <span class="pv-brand"><span class="pv-mark" aria-hidden="true"></span></span>
+          <h1 class="ds-appbar-title ds-grow">Today</h1>
+          <button type="button" class="ds-icon-btn ds-icon-btn--quiet" aria-label="Open settings">⚙</button>
+          <span class="ds-avatar ds-avatar--sm">AR</span>
+        </div>
+
+        <div class="pv-frame-body">
+          <!-- The reference's signature move: one soft orbit answering the only
+               question the screen asks. Decorative glow, real content. -->
+          <article class="ds-card ds-card--hero">
+            <p class="ds-eyebrow">Heatt · wednesday</p>
+            <h2 class="ds-card-title">A quiet hour, well spent.</h2>
+            <div class="ds-cluster ds-cluster--between" style="margin-block: var(--s-5)">
+              <div class="ds-orb ds-orb--sm">
+                <div class="ds-orb-content">
+                  <p class="ds-numeral ds-numeral--sm">12</p>
+                  <p class="ds-eyebrow">waypoints</p>
+                </div>
+              </div>
+              <div class="ds-stack ds-stack--tight" style="flex: 1 1 140px">
+                <p class="ds-copy">Reading is one long path, not a score. Here is where you have walked.</p>
+                <p class="ds-eyebrow">No streaks · nothing resets</p>
+              </div>
+            </div>
+            <a class="ds-btn ds-btn--primary" href="#board">Read something worth it</a>
+          </article>
+
+          <div class="ds-stats">
+            <div class="ds-stat"><strong>7</strong><span>Flares</span></div>
+            <div class="ds-stat"><strong>3</strong><span>Rooms</span></div>
+            <div class="ds-stat"><strong>21</strong><span>Saved</span></div>
+          </div>
+
+          <!-- a flare: author, one thought, one honest reaction -->
+          <article class="ds-card ds-card--tight">
+            <div class="ds-row">
+              <span class="ds-avatar">MK</span>
+              <div class="ds-row-body">
+                <p class="ds-row-title">Maya Okonkwo</p>
+                <p class="ds-row-meta">Thought · 2h · Creative practice</p>
+              </div>
+              <button type="button" class="ds-icon-btn" aria-label="More options">⋯</button>
+            </div>
+            <p class="ds-read" style="margin-block: var(--s-3)">The draft you are avoiding is usually the one that knows something you don’t. Give it twenty unglamorous minutes.</p>
+            <div class="ds-cluster ds-cluster--between">
+              <div class="pv-heat">
+                <button type="button" class="ds-chip ds-chip--solid" aria-pressed="true">🔥 Warm</button>
+                <button type="button" class="ds-chip" aria-pressed="false">🔥 Hot</button>
+              </div>
+              <button type="button" class="ds-btn ds-btn--ghost ds-btn--sm">Why this appeared</button>
+            </div>
+          </article>
+
+          <div class="ds-chip-row" role="group" aria-label="Shelves">
+            <span class="ds-chip-row-label">Shelves</span>
+            <button type="button" class="ds-chip active" aria-pressed="true">Creative practice</button>
+            <button type="button" class="ds-chip" aria-pressed="false">Books &amp; ideas</button>
+            <button type="button" class="ds-chip" aria-pressed="false">Poetry &amp; language</button>
+          </div>
+
+          <div class="ds-card ds-card--soft ds-card--tight">
+            <div class="ds-row">
+              <span class="ds-mark">PG</span>
+              <div class="ds-row-body">
+                <p class="ds-row-title">The work in front of you</p>
+                <p class="ds-row-meta">Gita path · rights review required</p>
+              </div>
+              <span class="ds-chip" aria-hidden="true">Paper</span>
+            </div>
+          </div>
+        </div>
+
+        <nav class="ds-tabbar" aria-label="Primary">
+          <button type="button" class="ds-tab" aria-current="page"><span aria-hidden="true">◉</span>Home</button>
+          <button type="button" class="ds-tab"><span aria-hidden="true">◎</span>Explore</button>
+          <button type="button" class="ds-tab ds-tab--primary" aria-label="Write a flare"><span aria-hidden="true">＋</span></button>
+          <button type="button" class="ds-tab"><span aria-hidden="true">▤</span>Journal</button>
+          <button type="button" class="ds-tab"><span aria-hidden="true">☺</span>You</button>
+        </nav>
+      </section>
+
+      <div class="pv-board" id="board">
+        <section class="ds-card">
+          <div class="pv-label">
+            <p class="ds-eyebrow">every interactive state</p>
+            <h2 class="ds-card-title ds-card-title--sm">Actions, chips and rules</h2>
+            <p class="ds-copy">One vivid accent per personality, used once per screen. Chips are dashed until chosen, then solid — a decision should look settled.</p>
+          </div>
+          <div class="pv-actions">
+            <button type="button" class="ds-btn ds-btn--primary">Primary</button>
+            <button type="button" class="ds-btn ds-btn--quiet">Quiet</button>
+            <button type="button" class="ds-btn ds-btn--ghost">Ghost</button>
+            <button type="button" class="ds-btn ds-btn--primary" aria-disabled="true">Disabled</button>
+          </div>
+          <div class="ds-chip-row" style="margin-block-start: var(--s-4)">
+            <button type="button" class="ds-chip" aria-pressed="false">Offered</button>
+            <button type="button" class="ds-chip active" aria-pressed="true">Chosen</button>
+            <button type="button" class="ds-chip" aria-pressed="false">Offered <small>4</small></button>
+          </div>
+          <div class="ds-segmented" role="tablist" aria-label="Feed mode" style="margin-block-start: var(--s-4)">
+            <button type="button" role="tab" aria-selected="true">For You</button>
+            <button type="button" role="tab" aria-selected="false">Following</button>
+            <button type="button" role="tab" aria-selected="false">Rooms</button>
+          </div>
+          <hr class="ds-hairline" style="margin-block: var(--s-4)" />
+          <div class="panel-ink ds-card ds-card--on-ink">
+            <p class="ds-eyebrow">the inverted panel</p>
+            <h3 class="ds-card-title ds-card-title--sm">A calm place to land.</h3>
+            <p class="ds-copy ds-copy--on-ink">Journal entries live here and nowhere else — never in ranking, search, share cards or training.</p>
+            <div class="ds-cluster" style="margin-block-start: var(--s-3)">
+              <button type="button" class="ds-btn ds-btn--on-ink">Open journal</button>
+              <button type="button" class="ds-chip ds-chip--on-ink" aria-pressed="false">Private by construction</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="ds-card">
+          <div class="pv-label">
+            <p class="ds-eyebrow">loading · empty · rows</p>
+            <h2 class="ds-card-title ds-card-title--sm">Nothing jumps, nothing is missing</h2>
+            <p class="ds-copy">Skeletons keep the shape of what is coming. An empty state is an invitation, never an error.</p>
+          </div>
+          <div class="ds-stack ds-stack--tight" aria-hidden="true">
+            <span class="ds-skeleton ds-skeleton--title"></span>
+            <span class="ds-skeleton ds-skeleton--line"></span>
+            <span class="ds-skeleton ds-skeleton--block"></span>
+          </div>
+          <div class="ds-empty" style="margin-block-start: var(--s-4)">
+            <p class="ds-card-title ds-card-title--sm">Your shelf is waiting</p>
+            <p class="ds-copy">Choose two or three topics and the open web opens up around them.</p>
+            <button type="button" class="ds-btn ds-btn--primary ds-btn--sm">Choose topics</button>
+          </div>
+          <div style="margin-block-start: var(--s-4)">
+            <button type="button" class="ds-row">
+              <span class="ds-avatar ds-avatar--sm">DS</span>
+              <span class="ds-row-body"><span class="ds-row-title">Dusk</span><span class="ds-row-meta">Companion · on-device</span></span>
+              <span class="ds-row-meta" aria-hidden="true">›</span>
+            </button>
+            <button type="button" class="ds-row">
+              <span class="ds-mark">PG</span>
+              <span class="ds-row-body"><span class="ds-row-title">Project Gutenberg</span><span class="ds-row-meta">Free to read · links out</span></span>
+              <span class="ds-row-meta" aria-hidden="true">›</span>
+            </button>
+          </div>
+        </section>
+      </div>
+
+      <p class="pv-foot">Imported live from <code>src/theme/tokens.css</code> and <code>src/ui/design-system.css</code> — see <code>preview/README.md</code>.</p>
+    </main>
+
+    <script>
+      /* Deliberately dependency-free and classic (not a module) so this page
+         opens from a double-click with no server and no build. It reads the
+         same durable keys the app reads, so preview and app agree on which
+         personality is active and whether motion is reduced. */
+      (function () {
+        var root = document.documentElement
+        var CHROME = { ember: '#f8f2ea', midnight: '#07080a', ink: '#f7f6f3' }
+        var chips = Array.prototype.slice.call(document.querySelectorAll('[data-theme-pick]'))
+
+        function readTheme() {
+          try {
+            var raw = window.localStorage.getItem('heatt-state')
+            if (raw) {
+              var value = JSON.parse(raw).theme
+              if (value === 'midnight') return 'midnight'
+              if (value === 'ink' || value === 'paper') return 'ink'
+            }
+          } catch (error) { /* storage blocked — stay on the default */ }
+          return 'ember'
+        }
+
+        function apply(theme) {
+          root.setAttribute('data-theme', theme)
+          var meta = document.querySelector('meta[name="theme-color"]')
+          if (meta) meta.setAttribute('content', CHROME[theme] || CHROME.ember)
+          chips.forEach(function (chip) {
+            var on = chip.getAttribute('data-theme-pick') === theme
+            chip.setAttribute('aria-pressed', on ? 'true' : 'false')
+            if (on) chip.classList.add('active')
+            else chip.classList.remove('active')
+          })
+          /* Same contract as the app: the in-app override can only ever add
+             stillness, never remove it (ADR 0002). */
+          var mode = ''
+          try { mode = window.localStorage.getItem('heatt-motion') || '' } catch (error) {}
+          if (mode === 'reduced') root.setAttribute('data-motion', 'reduced')
+          else root.removeAttribute('data-motion')
+        }
+
+        chips.forEach(function (chip) {
+          chip.addEventListener('click', function () {
+            apply(chip.getAttribute('data-theme-pick'))
+          })
+        })
+
+        apply(readTheme())
+      })()
+    </script>
+  </body>
+</html>
