@@ -1,0 +1,530 @@
+/* ============================================================
+   HEATT · THEME TOKENS — the canonical, single source of truth.
+
+   Three personalities, one system:
+
+     Ember    — warm daylight. Porcelain, heat-orange, soft gold.
+     Midnight — true black focus, lime glow, cream text.
+     Paper    — editorial white, black ink, quiet khaki.
+                (the stored theme id stays `ink`; `paper` is the
+                 display name and is normalised on read.)
+
+   Design language is informed by three reference studies:
+   an airy daylight dashboard (white cards, soft glow orb,
+   dashed pill chips, big numerals), a monochrome editorial
+   ledger (hairlines, stat rows, black pill actions), and a
+   black + lime app (deep surfaces, single vivid accent,
+   floating navigation). The *palettes* stay Heatt's own.
+
+   Rules for anyone editing this file:
+     1. A token never changes meaning between themes.
+     2. New tokens land here first. If a token describes motion
+        it is mirrored in src/motion/tokens.ts.
+     3. scripts/theme-contrast-check.ts parses THIS file and
+        asserts real pairs, so keep literal colour values in
+        the theme blocks (no cross-references for the pairs
+        that the script measures).
+   ============================================================ */
+
+/* ------------------------------------------------------------
+   1 · UNIVERSAL RAMP — never themed
+   ------------------------------------------------------------ */
+:root {
+  /* heat: the product's core gesture. Warm, always, everywhere. */
+  --heat-1: #f6a928;
+  --heat-2: #f3721a;
+  --heat-3: #ea4e12;
+  --heat-soft: rgba(243, 114, 26, 0.14);
+  --cool: #7fc4f2;
+  --cool-soft: rgba(127, 196, 242, 0.18);
+
+  /* type — self-hosted families degrade to the OS stack, and
+     local() is tried first so no webfont request is ever made. */
+  --font-display: 'Inter', 'SF Pro Display', -apple-system, BlinkMacSystemFont,
+    'Segoe UI Variable Display', 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-body: var(--font-display);
+  --font-read: 'Playfair Display', 'Source Serif 4', 'Iowan Old Style',
+    'Palatino Linotype', Palatino, Georgia, 'Times New Roman', serif;
+  --font-mono: 'JetBrains Mono', 'DM Mono', ui-monospace, 'SF Mono',
+    'Cascadia Mono', Consolas, monospace;
+
+  /* legacy aliases still consumed by older stylesheets */
+  --display: var(--font-display);
+  --body: var(--font-body);
+  --mono: var(--font-mono);
+
+  /* radii — large and app-grade */
+  --r-xs: 8px;
+  --r-sm: 12px;
+  --r-md: 16px;
+  --r-lg: 22px;
+  --r-xl: 28px;
+  --r-2xl: 34px;
+  --r-pill: 999px;
+  --radius: var(--r-md);
+
+  /* spacing — 4px rhythm */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-7: 32px;
+  --s-8: 44px;
+
+  /* type scale */
+  --t-micro: 10px;
+  --t-meta: 11.5px;
+  --t-small: 13px;
+  --t-body: 15px;
+  --t-lead: 17px;
+  --t-title: clamp(20px, 4.4vw, 26px);
+  --t-display: clamp(30px, 8vw, 46px);
+  --t-numeral: clamp(44px, 13vw, 78px);
+  --track-tight: -0.028em;
+  --track-wide: 0.09em;
+
+  /* motion — mirrored in src/motion/tokens.ts */
+  --dur-1: 120ms;
+  --dur-2: 200ms;
+  --dur-3: 320ms;
+  --dur-4: 520ms;
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* structure */
+  --blur-bar: 18px;
+  --blur-sheet: 26px;
+  --tap: 44px;
+  --hairline: 1px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+  --bar-h: 58px;
+  --tab-h: 64px;
+  --content-max: 680px;
+  --shell-max: 1180px;
+  --sidebar-w: 244px;
+  --rail-w: 300px;
+
+  /* chip + orb geometry, shared by every theme */
+  --chip-h: 38px;
+  --chip-pad: 16px;
+  --orb-ring: 1.5px;
+
+  color-scheme: light;
+}
+
+/* self-hosted families, used when the licensed files are present
+   in /public/fonts. local() first, so a machine that already has
+   the family installed makes no request at all. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: local('Inter'), url('/fonts/inter-variable.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: local('Playfair Display'), url('/fonts/playfair-display-variable.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'JetBrains Mono';
+  font-style: normal;
+  font-weight: 400 500;
+  font-display: swap;
+  src: local('JetBrains Mono'), url('/fonts/jetbrains-mono-variable.woff2') format('woff2');
+}
+
+/* ------------------------------------------------------------
+   2 · EMBER — the default. Golden hour, every hour.
+   Warm porcelain daylight, heat-orange energy, soft gold.
+   ------------------------------------------------------------ */
+:root,
+html[data-theme='ember'] {
+  color-scheme: light;
+
+  --bg: #f8f2ea;
+  --bg-tint-1: rgba(232, 89, 12, 0.07);
+  --bg-tint-2: rgba(184, 144, 48, 0.07);
+  --bg-tint-3: rgba(249, 115, 22, 0.05);
+
+  --panel: #fffdf9;
+  --panel-soft: #f5ede2;
+  --panel-deep: #ecdfcd;
+  --panel-glass: rgba(255, 253, 249, 0.72);
+
+  --panel-ink: #1d1410;
+  --panel-ink-2: #291b13;
+  --panel-ink-text: #f9f1e7;
+  --panel-ink-copy: #c9ac93;
+  --panel-ink-line: rgba(249, 115, 22, 0.24);
+
+  --text: #221812;
+  --copy: #5c4d42;
+  /* #7d6a5d read as "warm grey" but only reached 4.43:1 on --panel-soft,
+     which the contrast gate caught. This is the darkest value that still
+     reads as warm neutral. */
+  --muted: #77655a;
+  --line: #ecdfd1;
+  --line-strong: #d9c6b0;
+
+  --accent: #c2410c;
+  --accent-strong: #9a3412;
+  --accent-soft: rgba(194, 65, 12, 0.11);
+  --accent-glow: rgba(232, 89, 12, 0.30);
+  --on-accent: #fff7ed;
+  --accent-2: #f97316;
+  --gold: #8a6a1f;
+  --gold-soft: rgba(184, 144, 48, 0.16);
+
+  --flame-1: #f97316;
+  --flame-2: #fdba74;
+  --flame-3: #b89030;
+
+  --good: #2f7d5a;
+
+  /* surfaces the design system reads */
+  --glass-bar: rgba(248, 242, 234, 0.82);
+  --glass-sheet: rgba(255, 253, 249, 0.94);
+  --chip-bg: rgba(255, 253, 249, 0.7);
+  --chip-bg-active: #1d1410;
+  --chip-line: rgba(34, 24, 18, 0.16);
+  --chip-line-active: transparent;
+  --chip-text: #5c4d42;
+  --chip-text-active: #f9f1e7;
+  --orb-core: rgba(232, 89, 12, 0.24);
+  --orb-halo: rgba(184, 144, 48, 0.16);
+  --stat-bg: rgba(255, 253, 249, 0.66);
+  --stat-line: rgba(34, 24, 18, 0.07);
+  --numeral: #221812;
+  --scrim: rgba(38, 22, 12, 0.42);
+  --ring: rgba(194, 65, 12, 0.45);
+
+  --shadow: 0 14px 35px rgba(87, 53, 25, 0.09);
+  --shadow-lift: 0 22px 48px rgba(87, 53, 25, 0.17);
+  --shadow-panel-ink: 0 24px 60px rgba(28, 17, 9, 0.38);
+  --glow: 0 0 0 1px var(--accent-glow), 0 20px 54px -20px var(--accent-glow);
+
+  /* legacy remaps keep every older stylesheet themed */
+  --paper: var(--bg);
+  --paper-deep: var(--panel-deep);
+  --card: var(--panel);
+  --ink: var(--text);
+  --ink-soft: var(--copy);
+  --line-dark: var(--line-strong);
+  --ember: var(--accent);
+  --ember-deep: var(--accent-strong);
+  --saffron: var(--gold);
+  --sage: var(--good);
+  --lilac: #8b7fc7;
+
+  --surface-bg: var(--bg);
+  --surface-panel: var(--panel);
+  --surface-raised: var(--panel);
+  --surface-soft: var(--panel-soft);
+  --surface-text: var(--text);
+  --surface-copy: var(--copy);
+  --surface-muted: var(--muted);
+  --surface-line: var(--line);
+  --surface-accent: var(--accent);
+  --surface-accent-strong: var(--accent-strong);
+  --surface-on-accent: var(--on-accent);
+}
+
+/* ------------------------------------------------------------
+   3 · MIDNIGHT — deep focus after dark.
+   True black, one vivid lime, soft cream text. The reference
+   language here: near-black surfaces, a single electric accent
+   reserved for action, and glass navigation over content.
+   ------------------------------------------------------------ */
+html[data-theme='midnight'] {
+  color-scheme: dark;
+
+  --bg: #07080a;
+  --bg-tint-1: rgba(216, 242, 91, 0.05);
+  --bg-tint-2: rgba(239, 231, 218, 0.03);
+  --bg-tint-3: rgba(216, 242, 91, 0.035);
+
+  --panel: #101214;
+  --panel-soft: #15181b;
+  --panel-deep: #1c2023;
+  --panel-glass: rgba(16, 18, 20, 0.72);
+
+  --panel-ink: #0d0f0b;
+  --panel-ink-2: #131708;
+  --panel-ink-text: #eff7d2;
+  --panel-ink-copy: #a9b583;
+  --panel-ink-line: rgba(216, 242, 91, 0.2);
+
+  --text: #f2f4ee;
+  --copy: #b7bdb4;
+  --muted: #8f958b;
+  --line: #22262a;
+  --line-strong: #33383d;
+
+  --accent: #d8f25b;
+  --accent-strong: #e7ff78;
+  --accent-soft: rgba(216, 242, 91, 0.1);
+  --accent-glow: rgba(216, 242, 91, 0.22);
+  --on-accent: #10120b;
+  --accent-2: #e9ddba;
+  --gold: #e8c66a;
+  --gold-soft: rgba(232, 198, 106, 0.12);
+
+  --flame-1: #d8f25b;
+  --flame-2: #f2ffa0;
+  --flame-3: #e9ddba;
+
+  --good: #9fd8a8;
+
+  --glass-bar: rgba(7, 8, 10, 0.78);
+  --glass-sheet: rgba(16, 18, 20, 0.96);
+  --chip-bg: rgba(255, 255, 255, 0.05);
+  --chip-bg-active: #d8f25b;
+  --chip-line: rgba(242, 244, 238, 0.18);
+  --chip-line-active: transparent;
+  --chip-text: #b7bdb4;
+  --chip-text-active: #10120b;
+  --orb-core: rgba(216, 242, 91, 0.22);
+  --orb-halo: rgba(216, 242, 91, 0.07);
+  --stat-bg: rgba(255, 255, 255, 0.04);
+  --stat-line: rgba(255, 255, 255, 0.07);
+  --numeral: #f2f4ee;
+  --scrim: rgba(0, 0, 0, 0.66);
+  --ring: rgba(216, 242, 91, 0.55);
+
+  --shadow: 0 14px 35px rgba(0, 0, 0, 0.5);
+  --shadow-lift: 0 24px 55px rgba(0, 0, 0, 0.65);
+  --shadow-panel-ink: 0 24px 60px rgba(0, 0, 0, 0.7);
+  --glow: 0 0 0 1px var(--accent-glow), 0 22px 60px -22px var(--accent-glow);
+
+  --paper: var(--bg);
+  --paper-deep: var(--panel-deep);
+  --card: var(--panel);
+  --ink: var(--text);
+  --ink-soft: var(--copy);
+  --line-dark: var(--line-strong);
+  --ember: var(--accent);
+  --ember-deep: var(--accent-strong);
+  --saffron: var(--gold);
+  --sage: var(--good);
+  --lilac: #a5a3c9;
+
+  --surface-bg: var(--bg);
+  --surface-panel: var(--panel);
+  --surface-raised: var(--panel);
+  --surface-soft: var(--panel-soft);
+  --surface-text: var(--text);
+  --surface-copy: var(--copy);
+  --surface-muted: var(--muted);
+  --surface-line: var(--line);
+  --surface-accent: var(--accent);
+  --surface-accent-strong: var(--accent-strong);
+  --surface-on-accent: var(--on-accent);
+}
+
+/* ------------------------------------------------------------
+   4 · PAPER — the `ink` id, editorial white.
+   Warm white, black ink, a whisper of khaki. The reference
+   language here: hairlines instead of shadows, stat rows,
+   black pill actions, serif long-form reading.
+   ------------------------------------------------------------ */
+html[data-theme='ink'] {
+  color-scheme: light;
+
+  --bg: #f7f6f3;
+  --bg-tint-1: rgba(20, 20, 18, 0.04);
+  --bg-tint-2: rgba(142, 130, 92, 0.06);
+  --bg-tint-3: rgba(20, 20, 18, 0.025);
+
+  --panel: #ffffff;
+  --panel-soft: #f0efeb;
+  --panel-deep: #e7e5df;
+  --panel-glass: rgba(255, 255, 255, 0.74);
+
+  --panel-ink: #141412;
+  --panel-ink-2: #1d1d1a;
+  --panel-ink-text: #f5f4ef;
+  --panel-ink-copy: #b5b2a6;
+  --panel-ink-line: rgba(245, 244, 239, 0.16);
+
+  --text: #17170f;
+  --copy: #514f46;
+  --muted: #6f6c62;
+  --line: #e2e0d9;
+  --line-strong: #cfcdc3;
+
+  --accent: #1b1b18;
+  --accent-strong: #000000;
+  --accent-soft: rgba(23, 23, 15, 0.08);
+  --accent-glow: rgba(23, 23, 15, 0.2);
+  --on-accent: #faf9f5;
+  --accent-2: #6e6340;
+  --gold: #6e6340;
+  --gold-soft: rgba(142, 130, 92, 0.16);
+
+  --flame-1: #2b2b26;
+  --flame-2: #55544c;
+  --flame-3: #8e825c;
+
+  --good: #4c6440;
+
+  --glass-bar: rgba(247, 246, 243, 0.84);
+  --glass-sheet: rgba(255, 255, 255, 0.96);
+  --chip-bg: rgba(255, 255, 255, 0.72);
+  --chip-bg-active: #1b1b18;
+  --chip-line: rgba(23, 23, 15, 0.16);
+  --chip-line-active: transparent;
+  --chip-text: #514f46;
+  --chip-text-active: #faf9f5;
+  --orb-core: rgba(23, 23, 15, 0.1);
+  --orb-halo: rgba(142, 130, 92, 0.14);
+  --stat-bg: rgba(255, 255, 255, 0.7);
+  --stat-line: rgba(23, 23, 15, 0.06);
+  --numeral: #17170f;
+  --scrim: rgba(20, 20, 17, 0.4);
+  --ring: rgba(23, 23, 15, 0.45);
+
+  --shadow: 0 12px 30px rgba(32, 30, 22, 0.07);
+  --shadow-lift: 0 20px 44px rgba(32, 30, 22, 0.14);
+  --shadow-panel-ink: 0 24px 60px rgba(20, 20, 17, 0.3);
+  --glow: 0 0 0 1px var(--accent-glow), 0 18px 44px -22px var(--accent-glow);
+
+  --paper: var(--bg);
+  --paper-deep: var(--panel-deep);
+  --card: var(--panel);
+  --ink: var(--text);
+  --ink-soft: var(--copy);
+  --line-dark: var(--line-strong);
+  --ember: #c14b2e;
+  --ember-deep: #a03a20;
+  --saffron: var(--gold);
+  --sage: var(--good);
+  --lilac: #8b8577;
+
+  --surface-bg: var(--bg);
+  --surface-panel: var(--panel);
+  --surface-raised: var(--panel);
+  --surface-soft: var(--panel-soft);
+  --surface-text: var(--text);
+  --surface-copy: var(--copy);
+  --surface-muted: var(--muted);
+  --surface-line: var(--line);
+  --surface-accent: #c14b2e;
+  --surface-accent-strong: #a03a20;
+  --surface-on-accent: #ffffff;
+}
+
+/* ------------------------------------------------------------
+   5 · GLOBAL APPLICATION
+   ------------------------------------------------------------ */
+html {
+  background: var(--bg);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background:
+    radial-gradient(1100px 520px at 85% -8%, var(--bg-tint-1), transparent 62%),
+    radial-gradient(900px 600px at -10% 30%, var(--bg-tint-2), transparent 58%),
+    radial-gradient(700px 700px at 55% 115%, var(--bg-tint-3), transparent 60%),
+    var(--bg);
+  background-attachment: fixed;
+  font-family: var(--font-body);
+  font-size: var(--t-body);
+  line-height: 1.5;
+  overflow-wrap: break-word;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* modern line breaking where it exists, harmless where it does not */
+h1, h2, h3, .ds-title, .page-heading h1, .reader-headline { text-wrap: balance; }
+p, li, .lede, .ds-copy { text-wrap: pretty; }
+
+::selection { background: var(--accent-soft); }
+
+/* one focus ring, identical in intent on all three themes */
+:where(a, button, input, textarea, select, summary, [tabindex]):focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: var(--r-xs);
+}
+/* Paper's accent is near-black, which is invisible on black panels */
+html[data-theme='ink'] .panel-ink :where(a, button, input, textarea, select):focus-visible {
+  outline-color: var(--on-accent);
+}
+
+/* glass surfaces: app bar, tab bar, sheets */
+.ds-glass {
+  background: var(--glass-bar);
+  -webkit-backdrop-filter: blur(var(--blur-bar)) saturate(1.4);
+  backdrop-filter: blur(var(--blur-bar)) saturate(1.4);
+}
+
+/* cross-fade when the theme changes without a View Transition */
+html.theme-transitioning *,
+html.theme-transitioning *::before,
+html.theme-transitioning *::after {
+  transition:
+    background-color var(--dur-4) ease,
+    border-color var(--dur-4) ease,
+    color var(--dur-4) ease,
+    fill var(--dur-4) ease,
+    box-shadow var(--dur-4) ease !important;
+}
+
+/* View-Transition reveal: a circle that grows from the control the
+   reader pressed. src/theme/theme.ts sets --reveal-x/--reveal-y. */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+  mix-blend-mode: normal;
+}
+::view-transition-old(root) { z-index: 1; }
+::view-transition-new(root) { z-index: 2; }
+html.theme-reveal::view-transition-new(root) {
+  animation: ds-reveal var(--dur-4) var(--ease-out) both;
+}
+@keyframes ds-reveal {
+  from { clip-path: circle(0% at var(--reveal-x, 50%) var(--reveal-y, 0%)); }
+  to { clip-path: circle(145% at var(--reveal-x, 50%) var(--reveal-y, 0%)); }
+}
+
+/* the OS preference always wins over our own animation timing, and
+   the in-app override (heatt-motion) sets data-motion on <html> */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    scroll-behavior: auto !important;
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: .01ms !important;
+  }
+  ::view-transition-new(root) { animation: none !important; }
+}
+html[data-motion='reduced'] *, html[data-motion='reduced'] *::before, html[data-motion='reduced'] *::after {
+  animation-duration: .01ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: .01ms !important;
+  scroll-behavior: auto !important;
+}
+html[data-motion='reduced'] ::view-transition-new(root) { animation: none !important; }
+
+/* high-contrast mode: keep structure legible without our tints */
+@media (forced-colors: active) {
+  .ds-chip, .ds-card, .ds-stat, .ds-orb { border-color: CanvasText; }
+  .ds-chip[aria-pressed='true'], .ds-chip.active { forced-color-adjust: none; }
+}
+
+@media print {
+  .ds-appbar, .ds-tabbar, .ds-sheet, .toast, .mobile-nav { display: none !important; }
+  body { background: #fff; color: #000; }
+}

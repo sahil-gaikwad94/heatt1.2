@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#f8f2ea" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="Heatt" />
+    <script>
+      /* No-flash theme boot. Runs before the first paint, reads the same
+         durable object App.tsx owns (localStorage['heatt-state']), and
+         mirrors the result onto <html>. Keep this in sync with
+         src/theme/theme.ts — it is deliberately duplicated, minified and
+         dependency-free so no module load can delay it. */
+      (function () {
+        var d = document.documentElement
+        var theme = 'ember'
+        var motion = ''
+        try {
+          var raw = window.localStorage.getItem('heatt-state')
+          if (raw) {
+            var stored = JSON.parse(raw)
+            var value = stored && stored.theme
+            if (value === 'midnight') theme = 'midnight'
+            else if (value === 'ink' || value === 'paper') theme = 'ink'
+          }
+          motion = window.localStorage.getItem('heatt-motion') || ''
+        } catch (error) { /* storage blocked — stay on the default */ }
+        d.setAttribute('data-theme', theme)
+        /* The in-app override can only add stillness, never remove it, so
+           'reduced' is the only value that mirrors onto <html> (ADR 0002). */
+        if (motion === 'reduced') d.setAttribute('data-motion', motion)
+        var colors = { ember: '#f8f2ea', midnight: '#07080a', ink: '#f7f6f3' }
+        var meta = document.querySelector('meta[name="theme-color"]')
+        if (meta) meta.setAttribute('content', colors[theme])
+      })()
+    </script>
+    <meta name="description" content="A thoughtful social network for worthwhile expression, intentional discovery, and small communities." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Heatt" />
+    <meta property="og:title" content="Heatt — make room for what matters" />
+    <meta property="og:description" content="Thoughtful expression, original free reads, and kind rooms — without the attention traps." />
+    <meta property="og:image" content="https://heatt.app/og-heatt.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Heatt — make room for what matters" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Heatt — make room for what matters" />
+    <meta name="twitter:description" content="Thoughtful expression, original free reads, and kind rooms — without the attention traps." />
+    <meta name="twitter:image" content="https://heatt.app/og-heatt.png" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <title>Heatt — worthwhile moments</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
