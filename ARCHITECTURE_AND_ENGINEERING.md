@@ -69,7 +69,7 @@ A trail that only grows: it counts **distinct topics, traditions, and rooms expl
 *Build:* an append-only `curiosity_trail_events(user_id, event_type, topic_id, occurred_at)` table; a small scheduled job (reusing the existing bounded-worker pattern) recomputes `user_trail_progress(user_id, distinct_topics, distinct_rooms, distinct_traditions, waypoints_unlocked jsonb)`.
 *Cost:* $0 — one more consumer of the outbox/job pattern already in the architecture.
 
-### 4.2 Discovery Roulette
+### 4.2 Discovery Roulette (with swipe left or right, make it interesting)
 A "Surprise me" button on the For You feed. It draws one post from the same low-certainty exploration pool the ranker already samples from for its own controlled exploration — this feature just hands the user manual, on-demand access to it instead of waiting for the algorithm to decide when to show it.
 *Build:* one new endpoint, `GET /discovery/roulette`, applying the same eligibility and authorization gate as the main feed. No new pipeline.
 *Cost:* $0 — one extra bounded query.
@@ -181,10 +181,7 @@ Client-side, deterministic, template-rendered cards are unchanged. The **Constel
 
 | Element | Direction |
 |---|---|
-| Background | Cream and charcoal themes |
-| Accent | Ember orange and restrained saffron |
-| Typography | Readable body text; editorial display face only where useful |
-| Motion | Brief, interruptible, reduced-motion alternative always available |
+| UI/UX/Animation/Motion | Generate all the necessary content based on reference ui images and videos in artifacts folder!!! Generate cool, fun and interesting ui components that gets more user, more close to real apps, but better ui|
 | Curiosity Trail | A path, not a bar — waypoints, not percentages; never rendered in red or with a "broken" state |
 | Practice Pulse | A quiet number, not a badge or a ranking; disappears below the anonymity floor rather than showing "a few people" |
 | Constellation View | Rendered in the same cream/charcoal/ember palette as the rest of the app — this is a personal artifact, not a data-visualization showcase |
@@ -220,7 +217,7 @@ flowchart TB
 
 | Layer | Choice | Reason |
 |---|---|---|
-| Web client | React, TypeScript, Vite, PWA | Fast text-first product, portable static hosting |
+| Web client | React, TypeScript, Vite, PWA, React Native, TailwindCSS, Native Animated,  Motion and Animations| Fast text-first, with visuals, cool animations and motions product, portable static hosting |
 | API | TypeScript, Hono on Cloudflare Workers | Thin, edge-compatible, explicit boundaries |
 | Database | Supabase PostgreSQL | Relational integrity, auth integration, RLS |
 | Authentication | Supabase Auth | Avoids implementing sessions/passwords from scratch |
