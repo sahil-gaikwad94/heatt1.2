@@ -25,7 +25,7 @@ Vocabulary (use these words, not the old ones):
 | A curated topic collection | **shelf** |
 | A community space (public or private) | **room** |
 | The guide characters | **companions** (Kindle, Dusk, Ink, Lumen, Hearth) |
-| The three visual personalities | **Ember, Midnight, Paper** |
+| The three visual personalities | **3 themes reference in artifacts** |
 | Private writing | **journal** |
 
 Theme *ids* stay `ember`, `midnight`, `ink` for stored-state compatibility.
